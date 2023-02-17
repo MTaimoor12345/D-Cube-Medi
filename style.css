@@ -1,0 +1,274 @@
+.container{
+    margin: 0;
+    padding: 0;
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background-color: #185873;
+    display: flex;
+    height: 70px;
+    align-items: center;
+   
+}
+.logo{
+    justify-content: center;
+    padding-left: 40px;
+  
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+.list li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.list li{list-style-type: none;
+         padding-left: 30px;        
+}
+.menu{
+    color: #fff;
+    cursor: pointer;
+   padding-left: 50px;
+   display: none;
+   position: absolute;
+    right: 18px;
+    font-size: 28px;
+}
+.navtoggle ul li a{
+    text-decoration: none;
+            
+            color: #fff;
+}
+.navtoggle ul{
+    list-style-type: none;
+   text-align: center;
+}
+.navtoggle{
+    background-color: #185873;
+    position: relative;
+    top: -16px;
+  
+}
+.navtoggle1{
+    display: none !important;
+    transition: 0.5s;
+}
+.navtoggle ul li{
+           padding: 10px 10px;
+}
+.navtoggle ul li:hover{
+    border-bottom: 1px solid #fff ;
+}
+.content{
+    height: 897px;
+    background-color:#2994c0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+  
+}
+.content1{
+   
+
+    color: #fff;
+    font-weight: lighter;
+    font-size: 27.4px;
+}
+/* .content2{
+    
+   
+    
+
+} */
+.img1{
+    
+    width: 100%;
+    height: 750px;
+     
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.blue{
+    color: #2994c0;
+}
+.about{
+    
+    
+    justify-content: center;
+}
+.about1{
+    display: flex;
+    justify-content: center;
+    padding: 0 10%;
+}
+.flex{
+    background-color: #2994c0;
+    color: #fff;
+    font-size: 15px;
+    padding: 30px;
+    word-spacing: 10px;
+}
+.gallery{
+    display: flex;
+    padding: 0% 10%;
+    justify-content: space-between;
+    border-bottom: solid rgba(10, 8, 8, 0.171);
+
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+    border-bottom: solid rgba(10, 8, 8, 0.171);
+
+}
+.v1 iframe{
+    width: 400px;
+    height: 300px;
+   
+}
+.v2 iframe{
+    width: 400px;
+    height: 300px;
+}
+.clients{
+    display: flex;
+    padding: 0 10%;
+    justify-content: center;
+}
+.clients1{
+    display: flex;
+    padding: 0 10%;
+    justify-content: center;
+    border-bottom: solid rgba(10, 8, 8, 0.171);
+}
+.ourweb{
+    display: flex;
+    padding: 0 10%;
+    justify-content: center;
+    border-bottom: solid rgba(10, 8, 8, 0.171);
+}
+.future{
+    display: flex;
+    padding: 0 10%;
+    border-bottom: solid rgba(10, 8, 8, 0.171);
+}
+.future1{
+    background-color: #2994c0;
+    color: #fff;
+    padding: 32px;
+}
+.future2 img{
+    align-self: center;
+}
+.form1{
+    padding: 0% 20%;
+}
+.map{
+    padding: 0% 20%;
+    display: flex;
+    justify-content: center;
+}
+.map iframe{
+    width: 100%;
+}
+.footer{
+    color: #fff;
+    background-color: #185873;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1090px) {
+    .list {
+      display: none;
+    }
+    .menu{display: block;}
+  }
+  @media only screen and (max-width: 664px) {
+    .content1 p{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 663px)
+{
+    .img1{
+       
+        height: 400px;
+    }
+    .img{
+        width: 100%;
+    }
+    .content{
+        height: 470px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .flex1{
+       display: none;
+    }
+  }
+  @media only screen and (max-width: 925px) {
+    .gallery{
+       flex-direction: column;
+       align-items: center;
+    }
+    .gallery img{
+        border: solid #2994c0;
+    }
+  }
+  @media only screen and (max-width: 1076px) {
+    .video{
+       flex-direction: column;
+       align-items: center;
+    }
+  }
+  @media only screen and (max-width: 577px) {
+    .future2{
+       display: none;
+    }
+  }
+  @media only screen and (max-width: 1004px) {
+    .future1 h5{
+       font-size: 14px;
+    }
+    .future1 p{
+        font-size: 12px;
+     }
+  }
